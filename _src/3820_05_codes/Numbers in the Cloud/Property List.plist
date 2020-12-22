@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>category</key>
+		<string>Credit Cards</string>
+		<key>description</key>
+		<string>My Credit Cards</string>
+		<key>keys</key>
+		<array>
+			<dict>
+				<key>key</key>
+				<string>Mastercard</string>
+				<key>value</key>
+				<string>9999 9999 9999 9999</string>
+			</dict>
+			<dict>
+				<key>key</key>
+				<string>Visa</string>
+				<key>value</key>
+				<string>8888 8888 8888 8888</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>PINS</string>
+		<key>description</key>
+		<string>My PIN Numbers</string>
+		<key>keys</key>
+		<array>
+			<dict>
+				<key>key</key>
+				<string>Wells Fargo</string>
+				<key>value</key>
+				<string>9999</string>
+			</dict>
+			<dict>
+				<key>key</key>
+				<string>Bank of America</string>
+				<key>value</key>
+				<string>8888</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

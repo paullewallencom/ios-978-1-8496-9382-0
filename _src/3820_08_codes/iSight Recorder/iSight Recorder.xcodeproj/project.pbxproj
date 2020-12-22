@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E94FA83D1587D50900C44C4C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94FA83C1587D50900C44C4C /* Cocoa.framework */; };
+		E94FA8471587D50900C44C4C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E94FA8451587D50900C44C4C /* InfoPlist.strings */; };
+		E94FA8491587D50900C44C4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E94FA8481587D50900C44C4C /* main.m */; };
+		E94FA84D1587D50900C44C4C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E94FA84B1587D50900C44C4C /* Credits.rtf */; };
+		E94FA8501587D50900C44C4C /* BTSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E94FA84F1587D50900C44C4C /* BTSAppDelegate.m */; };
+		E94FA8531587D50900C44C4C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E94FA8511587D50900C44C4C /* MainMenu.xib */; };
+		E94FA85A1587D5EE00C44C4C /* iSightRecorder.icns in Resources */ = {isa = PBXBuildFile; fileRef = E94FA8591587D5EE00C44C4C /* iSightRecorder.icns */; };
+		E94FA85C1587D69700C44C4C /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94FA85B1587D69700C44C4C /* QTKit.framework */; };
+		E96086981589180500B649E2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E96086971589180500B649E2 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E94FA8381587D50900C44C4C /* iSight Recorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iSight Recorder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94FA83C1587D50900C44C4C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E94FA83F1587D50900C44C4C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E94FA8401587D50900C44C4C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E94FA8411587D50900C44C4C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E94FA8441587D50900C44C4C /* iSight Recorder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iSight Recorder-Info.plist"; sourceTree = "<group>"; };
+		E94FA8461587D50900C44C4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E94FA8481587D50900C44C4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E94FA84A1587D50900C44C4C /* iSight Recorder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iSight Recorder-Prefix.pch"; sourceTree = "<group>"; };
+		E94FA84C1587D50900C44C4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E94FA84E1587D50900C44C4C /* BTSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTSAppDelegate.h; sourceTree = "<group>"; };
+		E94FA84F1587D50900C44C4C /* BTSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTSAppDelegate.m; sourceTree = "<group>"; };
+		E94FA8521587D50900C44C4C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E94FA8591587D5EE00C44C4C /* iSightRecorder.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = iSightRecorder.icns; sourceTree = "<group>"; };
+		E94FA85B1587D69700C44C4C /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		E96086971589180500B649E2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E94FA8351587D50900C44C4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E96086981589180500B649E2 /* QuartzCore.framework in Frameworks */,
+				E94FA85C1587D69700C44C4C /* QTKit.framework in Frameworks */,
+				E94FA83D1587D50900C44C4C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E94FA82D1587D50900C44C4C = {
+			isa = PBXGroup;
+			children = (
+				E94FA8591587D5EE00C44C4C /* iSightRecorder.icns */,
+				E94FA8421587D50900C44C4C /* iSight Recorder */,
+				E94FA83B1587D50900C44C4C /* Frameworks */,
+				E94FA8391587D50900C44C4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E94FA8391587D50900C44C4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E94FA8381587D50900C44C4C /* iSight Recorder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E94FA83B1587D50900C44C4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E96086971589180500B649E2 /* QuartzCore.framework */,
+				E94FA85B1587D69700C44C4C /* QTKit.framework */,
+				E94FA83C1587D50900C44C4C /* Cocoa.framework */,
+				E94FA83E1587D50900C44C4C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E94FA83E1587D50900C44C4C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E94FA83F1587D50900C44C4C /* AppKit.framework */,
+				E94FA8401587D50900C44C4C /* CoreData.framework */,
+				E94FA8411587D50900C44C4C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E94FA8421587D50900C44C4C /* iSight Recorder */ = {
+			isa = PBXGroup;
+			children = (
+				E94FA84E1587D50900C44C4C /* BTSAppDelegate.h */,
+				E94FA84F1587D50900C44C4C /* BTSAppDelegate.m */,
+				E94FA8511587D50900C44C4C /* MainMenu.xib */,
+				E94FA8431587D50900C44C4C /* Supporting Files */,
+			);
+			path = "iSight Recorder";
+			sourceTree = "<group>";
+		};
+		E94FA8431587D50900C44C4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E94FA8441587D50900C44C4C /* iSight Recorder-Info.plist */,
+				E94FA8451587D50900C44C4C /* InfoPlist.strings */,
+				E94FA8481587D50900C44C4C /* main.m */,
+				E94FA84A1587D50900C44C4C /* iSight Recorder-Prefix.pch */,
+				E94FA84B1587D50900C44C4C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E94FA8371587D50900C44C4C /* iSight Recorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E94FA8561587D50900C44C4C /* Build configuration list for PBXNativeTarget "iSight Recorder" */;
+			buildPhases = (
+				E94FA8341587D50900C44C4C /* Sources */,
+				E94FA8351587D50900C44C4C /* Frameworks */,
+				E94FA8361587D50900C44C4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iSight Recorder";
+			productName = "iSight Recorder";
+			productReference = E94FA8381587D50900C44C4C /* iSight Recorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E94FA82F1587D50900C44C4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BTS;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "BurningThumb Software";
+			};
+			buildConfigurationList = E94FA8321587D50900C44C4C /* Build configuration list for PBXProject "iSight Recorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E94FA82D1587D50900C44C4C;
+			productRefGroup = E94FA8391587D50900C44C4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E94FA8371587D50900C44C4C /* iSight Recorder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E94FA8361587D50900C44C4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94FA8471587D50900C44C4C /* InfoPlist.strings in Resources */,
+				E94FA84D1587D50900C44C4C /* Credits.rtf in Resources */,
+				E94FA8531587D50900C44C4C /* MainMenu.xib in Resources */,
+				E94FA85A1587D5EE00C44C4C /* iSightRecorder.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E94FA8341587D50900C44C4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94FA8491587D50900C44C4C /* main.m in Sources */,
+				E94FA8501587D50900C44C4C /* BTSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E94FA8451587D50900C44C4C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E94FA8461587D50900C44C4C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E94FA84B1587D50900C44C4C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E94FA84C1587D50900C44C4C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E94FA8511587D50900C44C4C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E94FA8521587D50900C44C4C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E94FA8541587D50900C44C4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E94FA8551587D50900C44C4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E94FA8571587D50900C44C4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iSight Recorder/iSight Recorder-Prefix.pch";
+				INFOPLIST_FILE = "iSight Recorder/iSight Recorder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E94FA8581587D50900C44C4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iSight Recorder/iSight Recorder-Prefix.pch";
+				INFOPLIST_FILE = "iSight Recorder/iSight Recorder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E94FA8321587D50900C44C4C /* Build configuration list for PBXProject "iSight Recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94FA8541587D50900C44C4C /* Debug */,
+				E94FA8551587D50900C44C4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E94FA8561587D50900C44C4C /* Build configuration list for PBXNativeTarget "iSight Recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94FA8571587D50900C44C4C /* Debug */,
+				E94FA8581587D50900C44C4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E94FA82F1587D50900C44C4C /* Project object */;
+}

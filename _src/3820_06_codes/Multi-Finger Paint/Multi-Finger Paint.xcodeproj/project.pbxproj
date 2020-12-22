@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E91A2752159C099700F22400 /* BTSFingerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E91A2751159C099700F22400 /* BTSFingerView.m */; };
+		E922D9B2156D40BF006CCA44 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E922D9B1156D40BF006CCA44 /* Cocoa.framework */; };
+		E922D9BC156D40BF006CCA44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E922D9BA156D40BF006CCA44 /* InfoPlist.strings */; };
+		E922D9BE156D40C0006CCA44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E922D9BD156D40BF006CCA44 /* main.m */; };
+		E922D9C2156D40C0006CCA44 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E922D9C0156D40C0006CCA44 /* Credits.rtf */; };
+		E922D9C5156D40C0006CCA44 /* BTSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E922D9C4156D40C0006CCA44 /* BTSAppDelegate.m */; };
+		E922D9C8156D40C0006CCA44 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E922D9C6156D40C0006CCA44 /* MainMenu.xib */; };
+		E922D9D6156D4425006CCA44 /* Multi-FingerPaint.icns in Resources */ = {isa = PBXBuildFile; fileRef = E922D9D5156D4425006CCA44 /* Multi-FingerPaint.icns */; };
+		E922D9DC156D63FA006CCA44 /* BTSStrokeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E922D9DB156D63FA006CCA44 /* BTSStrokeView.m */; };
+		E9DB67AD156EDD9100BE0F2E /* BTSPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DB67AC156EDD9100BE0F2E /* BTSPoint.m */; };
+		E9DB67B0156EDE6A00BE0F2E /* BTSStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DB67AF156EDE6A00BE0F2E /* BTSStroke.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E91A2751159C099700F22400 /* BTSFingerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSFingerView.m; sourceTree = "<group>"; };
+		E91ED30E157166BF00137D2E /* BTSStrokeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSStrokeView.h; sourceTree = "<group>"; };
+		E922D9AD156D40BF006CCA44 /* Multi-Finger Paint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multi-Finger Paint.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E922D9B1156D40BF006CCA44 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E922D9B4156D40BF006CCA44 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E922D9B5156D40BF006CCA44 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E922D9B6156D40BF006CCA44 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E922D9B9156D40BF006CCA44 /* Multi-Finger Paint-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Multi-Finger Paint-Info.plist"; sourceTree = "<group>"; };
+		E922D9BB156D40BF006CCA44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E922D9BD156D40BF006CCA44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E922D9BF156D40C0006CCA44 /* Multi-Finger Paint-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Multi-Finger Paint-Prefix.pch"; sourceTree = "<group>"; };
+		E922D9C1156D40C0006CCA44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E922D9C3156D40C0006CCA44 /* BTSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTSAppDelegate.h; sourceTree = "<group>"; };
+		E922D9C4156D40C0006CCA44 /* BTSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTSAppDelegate.m; sourceTree = "<group>"; };
+		E922D9C7156D40C0006CCA44 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E922D9D5156D4425006CCA44 /* Multi-FingerPaint.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Multi-FingerPaint.icns"; sourceTree = "<group>"; };
+		E922D9DA156D63FA006CCA44 /* BTSFingerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BTSFingerView.h; path = "Multi-Finger Paint/BTSFingerView.h"; sourceTree = SOURCE_ROOT; };
+		E922D9DB156D63FA006CCA44 /* BTSStrokeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSStrokeView.m; sourceTree = "<group>"; };
+		E9DB67AB156EDD9100BE0F2E /* BTSPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSPoint.h; sourceTree = "<group>"; };
+		E9DB67AC156EDD9100BE0F2E /* BTSPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSPoint.m; sourceTree = "<group>"; };
+		E9DB67AE156EDE6A00BE0F2E /* BTSStroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSStroke.h; sourceTree = "<group>"; };
+		E9DB67AF156EDE6A00BE0F2E /* BTSStroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSStroke.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E922D9AA156D40BF006CCA44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E922D9B2156D40BF006CCA44 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E922D9A2156D40BF006CCA44 = {
+			isa = PBXGroup;
+			children = (
+				E922D9D5156D4425006CCA44 /* Multi-FingerPaint.icns */,
+				E922D9B7156D40BF006CCA44 /* Multi-Finger Paint */,
+				E922D9B0156D40BF006CCA44 /* Frameworks */,
+				E922D9AE156D40BF006CCA44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E922D9AE156D40BF006CCA44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E922D9AD156D40BF006CCA44 /* Multi-Finger Paint.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E922D9B0156D40BF006CCA44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E922D9B1156D40BF006CCA44 /* Cocoa.framework */,
+				E922D9B3156D40BF006CCA44 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E922D9B3156D40BF006CCA44 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E922D9B4156D40BF006CCA44 /* AppKit.framework */,
+				E922D9B5156D40BF006CCA44 /* CoreData.framework */,
+				E922D9B6156D40BF006CCA44 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E922D9B7156D40BF006CCA44 /* Multi-Finger Paint */ = {
+			isa = PBXGroup;
+			children = (
+				E9DB67AB156EDD9100BE0F2E /* BTSPoint.h */,
+				E9DB67AC156EDD9100BE0F2E /* BTSPoint.m */,
+				E9DB67AE156EDE6A00BE0F2E /* BTSStroke.h */,
+				E9DB67AF156EDE6A00BE0F2E /* BTSStroke.m */,
+				E922D9DB156D63FA006CCA44 /* BTSStrokeView.m */,
+				E91ED30E157166BF00137D2E /* BTSStrokeView.h */,
+				E922D9DA156D63FA006CCA44 /* BTSFingerView.h */,
+				E91A2751159C099700F22400 /* BTSFingerView.m */,
+				E922D9C3156D40C0006CCA44 /* BTSAppDelegate.h */,
+				E922D9C4156D40C0006CCA44 /* BTSAppDelegate.m */,
+				E922D9C6156D40C0006CCA44 /* MainMenu.xib */,
+				E922D9B8156D40BF006CCA44 /* Supporting Files */,
+			);
+			path = "Multi-Finger Paint";
+			sourceTree = "<group>";
+		};
+		E922D9B8156D40BF006CCA44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E922D9B9156D40BF006CCA44 /* Multi-Finger Paint-Info.plist */,
+				E922D9BA156D40BF006CCA44 /* InfoPlist.strings */,
+				E922D9BD156D40BF006CCA44 /* main.m */,
+				E922D9BF156D40C0006CCA44 /* Multi-Finger Paint-Prefix.pch */,
+				E922D9C0156D40C0006CCA44 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E922D9AC156D40BF006CCA44 /* Multi-Finger Paint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E922D9CB156D40C0006CCA44 /* Build configuration list for PBXNativeTarget "Multi-Finger Paint" */;
+			buildPhases = (
+				E922D9A9156D40BF006CCA44 /* Sources */,
+				E922D9AA156D40BF006CCA44 /* Frameworks */,
+				E922D9AB156D40BF006CCA44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Multi-Finger Paint";
+			productName = "Multi-Finger Paint";
+			productReference = E922D9AD156D40BF006CCA44 /* Multi-Finger Paint.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E922D9A4156D40BF006CCA44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BTS;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "BurningThumb Software";
+			};
+			buildConfigurationList = E922D9A7156D40BF006CCA44 /* Build configuration list for PBXProject "Multi-Finger Paint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E922D9A2156D40BF006CCA44;
+			productRefGroup = E922D9AE156D40BF006CCA44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E922D9AC156D40BF006CCA44 /* Multi-Finger Paint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E922D9AB156D40BF006CCA44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E922D9BC156D40BF006CCA44 /* InfoPlist.strings in Resources */,
+				E922D9C2156D40C0006CCA44 /* Credits.rtf in Resources */,
+				E922D9C8156D40C0006CCA44 /* MainMenu.xib in Resources */,
+				E922D9D6156D4425006CCA44 /* Multi-FingerPaint.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E922D9A9156D40BF006CCA44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E922D9BE156D40C0006CCA44 /* main.m in Sources */,
+				E922D9C5156D40C0006CCA44 /* BTSAppDelegate.m in Sources */,
+				E922D9DC156D63FA006CCA44 /* BTSStrokeView.m in Sources */,
+				E9DB67AD156EDD9100BE0F2E /* BTSPoint.m in Sources */,
+				E9DB67B0156EDE6A00BE0F2E /* BTSStroke.m in Sources */,
+				E91A2752159C099700F22400 /* BTSFingerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E922D9BA156D40BF006CCA44 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E922D9BB156D40BF006CCA44 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E922D9C0156D40C0006CCA44 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E922D9C1156D40C0006CCA44 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E922D9C6156D40C0006CCA44 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E922D9C7156D40C0006CCA44 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E922D9C9156D40C0006CCA44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E922D9CA156D40C0006CCA44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E922D9CC156D40C0006CCA44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Multi-Finger Paint/Multi-Finger Paint-Prefix.pch";
+				INFOPLIST_FILE = "Multi-Finger Paint/Multi-Finger Paint-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E922D9CD156D40C0006CCA44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Multi-Finger Paint/Multi-Finger Paint-Prefix.pch";
+				INFOPLIST_FILE = "Multi-Finger Paint/Multi-Finger Paint-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E922D9A7156D40BF006CCA44 /* Build configuration list for PBXProject "Multi-Finger Paint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E922D9C9156D40C0006CCA44 /* Debug */,
+				E922D9CA156D40C0006CCA44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E922D9CB156D40C0006CCA44 /* Build configuration list for PBXNativeTarget "Multi-Finger Paint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E922D9CC156D40C0006CCA44 /* Debug */,
+				E922D9CD156D40C0006CCA44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E922D9A4156D40BF006CCA44 /* Project object */;
+}

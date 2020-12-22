@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9039356154F3512004040D5 /* AddCategory.png in Resources */ = {isa = PBXBuildFile; fileRef = E9039355154F3512004040D5 /* AddCategory.png */; };
+		E9039359154F3632004040D5 /* DeleteCategory.png in Resources */ = {isa = PBXBuildFile; fileRef = E9039358154F3632004040D5 /* DeleteCategory.png */; };
+		E903935D154F38E4004040D5 /* DeleteKey.png in Resources */ = {isa = PBXBuildFile; fileRef = E903935C154F38E4004040D5 /* DeleteKey.png */; };
+		E903935F154F3954004040D5 /* AddKey.png in Resources */ = {isa = PBXBuildFile; fileRef = E903935E154F3954004040D5 /* AddKey.png */; };
+		E9E678E21561658C00B1E841 /* BTS_NCTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E678E11561658C00B1E841 /* BTS_NCTableViewDelegate.m */; };
+		E9E678F21561939500B1E841 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9E678F11561939500B1E841 /* Property List.plist */; };
+		E9E678F51561B9AF00B1E841 /* BTS_NCToolbarDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E678F41561B9AF00B1E841 /* BTS_NCToolbarDelegate.m */; };
+		E9F327E2155AD97F009AA45B /* NumbersInTheCloud.icns in Resources */ = {isa = PBXBuildFile; fileRef = E9F327E1155AD97F009AA45B /* NumbersInTheCloud.icns */; };
+		E9F33CBE154F2824002B1436 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F33CBD154F2824002B1436 /* Cocoa.framework */; };
+		E9F33CC8154F2824002B1436 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9F33CC6154F2824002B1436 /* InfoPlist.strings */; };
+		E9F33CCA154F2824002B1436 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F33CC9154F2824002B1436 /* main.m */; };
+		E9F33CCE154F2824002B1436 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E9F33CCC154F2824002B1436 /* Credits.rtf */; };
+		E9F33CD1154F2824002B1436 /* BTSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F33CD0154F2824002B1436 /* BTSAppDelegate.m */; };
+		E9F33CD4154F2824002B1436 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9F33CD2154F2824002B1436 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E9039355154F3512004040D5 /* AddCategory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddCategory.png; sourceTree = SOURCE_ROOT; };
+		E9039358154F3632004040D5 /* DeleteCategory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DeleteCategory.png; sourceTree = SOURCE_ROOT; };
+		E903935C154F38E4004040D5 /* DeleteKey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DeleteKey.png; sourceTree = SOURCE_ROOT; };
+		E903935E154F3954004040D5 /* AddKey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddKey.png; sourceTree = SOURCE_ROOT; };
+		E9E678E01561658C00B1E841 /* BTS_NCTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTS_NCTableViewDelegate.h; sourceTree = "<group>"; };
+		E9E678E11561658C00B1E841 /* BTS_NCTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTS_NCTableViewDelegate.m; sourceTree = "<group>"; };
+		E9E678F11561939500B1E841 /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = SOURCE_ROOT; };
+		E9E678F31561B9AF00B1E841 /* BTS_NCToolbarDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTS_NCToolbarDelegate.h; sourceTree = "<group>"; };
+		E9E678F41561B9AF00B1E841 /* BTS_NCToolbarDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTS_NCToolbarDelegate.m; sourceTree = "<group>"; };
+		E9F327E1155AD97F009AA45B /* NumbersInTheCloud.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = NumbersInTheCloud.icns; sourceTree = "<group>"; };
+		E9F327F6155B0160009AA45B /* Numbers in the Cloud.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Numbers in the Cloud.entitlements"; sourceTree = "<group>"; };
+		E9F33CB9154F2824002B1436 /* Numbers in the Cloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Numbers in the Cloud.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F33CBD154F2824002B1436 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E9F33CC0154F2824002B1436 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E9F33CC1154F2824002B1436 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E9F33CC2154F2824002B1436 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E9F33CC5154F2824002B1436 /* Numbers in the Cloud-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Numbers in the Cloud-Info.plist"; sourceTree = "<group>"; };
+		E9F33CC7154F2824002B1436 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9F33CC9154F2824002B1436 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9F33CCB154F2824002B1436 /* Numbers in the Cloud-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Numbers in the Cloud-Prefix.pch"; sourceTree = "<group>"; };
+		E9F33CCD154F2824002B1436 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E9F33CCF154F2824002B1436 /* BTSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTSAppDelegate.h; sourceTree = "<group>"; };
+		E9F33CD0154F2824002B1436 /* BTSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTSAppDelegate.m; sourceTree = "<group>"; };
+		E9F33CD3154F2824002B1436 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9F33CB6154F2824002B1436 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F33CBE154F2824002B1436 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9F33CAE154F2824002B1436 = {
+			isa = PBXGroup;
+			children = (
+				E9F327E1155AD97F009AA45B /* NumbersInTheCloud.icns */,
+				E9F33CC3154F2824002B1436 /* Numbers in the Cloud */,
+				E9F33CBC154F2824002B1436 /* Frameworks */,
+				E9F33CBA154F2824002B1436 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9F33CBA154F2824002B1436 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9F33CB9154F2824002B1436 /* Numbers in the Cloud.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9F33CBC154F2824002B1436 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9F33CBD154F2824002B1436 /* Cocoa.framework */,
+				E9F33CBF154F2824002B1436 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9F33CBF154F2824002B1436 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9F33CC0154F2824002B1436 /* AppKit.framework */,
+				E9F33CC1154F2824002B1436 /* CoreData.framework */,
+				E9F33CC2154F2824002B1436 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E9F33CC3154F2824002B1436 /* Numbers in the Cloud */ = {
+			isa = PBXGroup;
+			children = (
+				E9F327F6155B0160009AA45B /* Numbers in the Cloud.entitlements */,
+				E9F33CCF154F2824002B1436 /* BTSAppDelegate.h */,
+				E9F33CD0154F2824002B1436 /* BTSAppDelegate.m */,
+				E9F33CD2154F2824002B1436 /* MainMenu.xib */,
+				E9E678E01561658C00B1E841 /* BTS_NCTableViewDelegate.h */,
+				E9E678E11561658C00B1E841 /* BTS_NCTableViewDelegate.m */,
+				E9E678F31561B9AF00B1E841 /* BTS_NCToolbarDelegate.h */,
+				E9E678F41561B9AF00B1E841 /* BTS_NCToolbarDelegate.m */,
+				E9F33CC4154F2824002B1436 /* Supporting Files */,
+			);
+			path = "Numbers in the Cloud";
+			sourceTree = "<group>";
+		};
+		E9F33CC4154F2824002B1436 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9E678F11561939500B1E841 /* Property List.plist */,
+				E903935C154F38E4004040D5 /* DeleteKey.png */,
+				E903935E154F3954004040D5 /* AddKey.png */,
+				E9039358154F3632004040D5 /* DeleteCategory.png */,
+				E9039355154F3512004040D5 /* AddCategory.png */,
+				E9F33CC5154F2824002B1436 /* Numbers in the Cloud-Info.plist */,
+				E9F33CC6154F2824002B1436 /* InfoPlist.strings */,
+				E9F33CC9154F2824002B1436 /* main.m */,
+				E9F33CCB154F2824002B1436 /* Numbers in the Cloud-Prefix.pch */,
+				E9F33CCC154F2824002B1436 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9F33CB8154F2824002B1436 /* Numbers in the Cloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F33CD7154F2824002B1436 /* Build configuration list for PBXNativeTarget "Numbers in the Cloud" */;
+			buildPhases = (
+				E9F33CB5154F2824002B1436 /* Sources */,
+				E9F33CB6154F2824002B1436 /* Frameworks */,
+				E9F33CB7154F2824002B1436 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Numbers in the Cloud";
+			productName = "Numbers in the Cloud";
+			productReference = E9F33CB9154F2824002B1436 /* Numbers in the Cloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9F33CB0154F2824002B1436 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BTS;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Burning Thumb Software";
+			};
+			buildConfigurationList = E9F33CB3154F2824002B1436 /* Build configuration list for PBXProject "Numbers in the Cloud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E9F33CAE154F2824002B1436;
+			productRefGroup = E9F33CBA154F2824002B1436 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9F33CB8154F2824002B1436 /* Numbers in the Cloud */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9F33CB7154F2824002B1436 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F33CC8154F2824002B1436 /* InfoPlist.strings in Resources */,
+				E9F33CCE154F2824002B1436 /* Credits.rtf in Resources */,
+				E9F33CD4154F2824002B1436 /* MainMenu.xib in Resources */,
+				E9039356154F3512004040D5 /* AddCategory.png in Resources */,
+				E9039359154F3632004040D5 /* DeleteCategory.png in Resources */,
+				E903935D154F38E4004040D5 /* DeleteKey.png in Resources */,
+				E903935F154F3954004040D5 /* AddKey.png in Resources */,
+				E9F327E2155AD97F009AA45B /* NumbersInTheCloud.icns in Resources */,
+				E9E678F21561939500B1E841 /* Property List.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9F33CB5154F2824002B1436 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F33CCA154F2824002B1436 /* main.m in Sources */,
+				E9F33CD1154F2824002B1436 /* BTSAppDelegate.m in Sources */,
+				E9E678E21561658C00B1E841 /* BTS_NCTableViewDelegate.m in Sources */,
+				E9E678F51561B9AF00B1E841 /* BTS_NCToolbarDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9F33CC6154F2824002B1436 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9F33CC7154F2824002B1436 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E9F33CCC154F2824002B1436 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9F33CCD154F2824002B1436 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E9F33CD2154F2824002B1436 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9F33CD3154F2824002B1436 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9F33CD5154F2824002B1436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E9F33CD6154F2824002B1436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E9F33CD8154F2824002B1436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Numbers in the Cloud/Numbers in the Cloud.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer: Robert Wiebe (YA55FY8245)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Numbers in the Cloud/Numbers in the Cloud-Prefix.pch";
+				INFOPLIST_FILE = "Numbers in the Cloud/Numbers in the Cloud-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "40B7DCB5-4B3F-4FBE-B95D-43CAB0EC957F";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E9F33CD9154F2824002B1436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Numbers in the Cloud/Numbers in the Cloud.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer: Robert Wiebe (YA55FY8245)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Numbers in the Cloud/Numbers in the Cloud-Prefix.pch";
+				INFOPLIST_FILE = "Numbers in the Cloud/Numbers in the Cloud-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "40B7DCB5-4B3F-4FBE-B95D-43CAB0EC957F";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9F33CB3154F2824002B1436 /* Build configuration list for PBXProject "Numbers in the Cloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F33CD5154F2824002B1436 /* Debug */,
+				E9F33CD6154F2824002B1436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F33CD7154F2824002B1436 /* Build configuration list for PBXNativeTarget "Numbers in the Cloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F33CD8154F2824002B1436 /* Debug */,
+				E9F33CD9154F2824002B1436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9F33CB0154F2824002B1436 /* Project object */;
+}

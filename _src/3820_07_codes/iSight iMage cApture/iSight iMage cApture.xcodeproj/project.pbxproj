@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E91F732615792D6D0061EBB6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E91F732515792D6D0061EBB6 /* Cocoa.framework */; };
+		E91F733015792D6D0061EBB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E91F732E15792D6D0061EBB6 /* InfoPlist.strings */; };
+		E91F733215792D6D0061EBB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E91F733115792D6D0061EBB6 /* main.m */; };
+		E91F733615792D6D0061EBB6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E91F733415792D6D0061EBB6 /* Credits.rtf */; };
+		E91F733915792D6D0061EBB6 /* BTSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E91F733815792D6D0061EBB6 /* BTSAppDelegate.m */; };
+		E91F733C15792D6E0061EBB6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E91F733A15792D6E0061EBB6 /* MainMenu.xib */; };
+		E91F734315792DA30061EBB6 /* iSightiMage.icns in Resources */ = {isa = PBXBuildFile; fileRef = E91F734215792DA30061EBB6 /* iSightiMage.icns */; };
+		E92DEA0E157D424D00EB02A0 /* BTSWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = E92DEA0D157D424D00EB02A0 /* BTSWindowController.m */; };
+		E92DEA15157D665B00EB02A0 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E92DEA14157D665B00EB02A0 /* Quartz.framework */; };
+		E92DEA18157D833600EB02A0 /* BTSImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E92DEA17157D833600EB02A0 /* BTSImage.m */; };
+		E92DEA1F157FEAC200EB02A0 /* BTSWindowController+Browser.m in Sources */ = {isa = PBXBuildFile; fileRef = E92DEA1E157FEAC200EB02A0 /* BTSWindowController+Browser.m */; };
+		E92DEA221580129E00EB02A0 /* BTSWindowController+Importer.m in Sources */ = {isa = PBXBuildFile; fileRef = E92DEA211580129E00EB02A0 /* BTSWindowController+Importer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E91F732115792D6D0061EBB6 /* iSight iMage cApture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iSight iMage cApture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91F732515792D6D0061EBB6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E91F732815792D6D0061EBB6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E91F732915792D6D0061EBB6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E91F732A15792D6D0061EBB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E91F732D15792D6D0061EBB6 /* iSight iMage cApture-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iSight iMage cApture-Info.plist"; sourceTree = "<group>"; };
+		E91F732F15792D6D0061EBB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E91F733115792D6D0061EBB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E91F733315792D6D0061EBB6 /* iSight iMage cApture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iSight iMage cApture-Prefix.pch"; sourceTree = "<group>"; };
+		E91F733515792D6D0061EBB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E91F733715792D6D0061EBB6 /* BTSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTSAppDelegate.h; sourceTree = "<group>"; };
+		E91F733815792D6D0061EBB6 /* BTSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTSAppDelegate.m; sourceTree = "<group>"; };
+		E91F733B15792D6E0061EBB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E91F734215792DA30061EBB6 /* iSightiMage.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = iSightiMage.icns; sourceTree = "<group>"; };
+		E92DEA0C157D424D00EB02A0 /* BTSWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSWindowController.h; sourceTree = "<group>"; };
+		E92DEA0D157D424D00EB02A0 /* BTSWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSWindowController.m; sourceTree = "<group>"; };
+		E92DEA14157D665B00EB02A0 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		E92DEA16157D833600EB02A0 /* BTSImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BTSImage.h; path = "iSight iMage cApture/BTSImage.h"; sourceTree = SOURCE_ROOT; };
+		E92DEA17157D833600EB02A0 /* BTSImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BTSImage.m; path = "iSight iMage cApture/BTSImage.m"; sourceTree = SOURCE_ROOT; };
+		E92DEA1D157FEAC200EB02A0 /* BTSWindowController+Browser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BTSWindowController+Browser.h"; sourceTree = "<group>"; };
+		E92DEA1E157FEAC200EB02A0 /* BTSWindowController+Browser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BTSWindowController+Browser.m"; sourceTree = "<group>"; };
+		E92DEA201580129E00EB02A0 /* BTSWindowController+Importer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BTSWindowController+Importer.h"; sourceTree = "<group>"; };
+		E92DEA211580129E00EB02A0 /* BTSWindowController+Importer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BTSWindowController+Importer.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E91F731E15792D6D0061EBB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92DEA15157D665B00EB02A0 /* Quartz.framework in Frameworks */,
+				E91F732615792D6D0061EBB6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E91F731615792D6D0061EBB6 = {
+			isa = PBXGroup;
+			children = (
+				E91F734215792DA30061EBB6 /* iSightiMage.icns */,
+				E91F732B15792D6D0061EBB6 /* iSight iMage cApture */,
+				E91F732415792D6D0061EBB6 /* Frameworks */,
+				E91F732215792D6D0061EBB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E91F732215792D6D0061EBB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E91F732115792D6D0061EBB6 /* iSight iMage cApture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E91F732415792D6D0061EBB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E92DEA14157D665B00EB02A0 /* Quartz.framework */,
+				E91F732515792D6D0061EBB6 /* Cocoa.framework */,
+				E91F732715792D6D0061EBB6 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E91F732715792D6D0061EBB6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E91F732815792D6D0061EBB6 /* AppKit.framework */,
+				E91F732915792D6D0061EBB6 /* CoreData.framework */,
+				E91F732A15792D6D0061EBB6 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E91F732B15792D6D0061EBB6 /* iSight iMage cApture */ = {
+			isa = PBXGroup;
+			children = (
+				E92DEA16157D833600EB02A0 /* BTSImage.h */,
+				E92DEA17157D833600EB02A0 /* BTSImage.m */,
+				E91F733715792D6D0061EBB6 /* BTSAppDelegate.h */,
+				E91F733815792D6D0061EBB6 /* BTSAppDelegate.m */,
+				E92DEA0C157D424D00EB02A0 /* BTSWindowController.h */,
+				E92DEA0D157D424D00EB02A0 /* BTSWindowController.m */,
+				E92DEA1D157FEAC200EB02A0 /* BTSWindowController+Browser.h */,
+				E92DEA1E157FEAC200EB02A0 /* BTSWindowController+Browser.m */,
+				E91F733A15792D6E0061EBB6 /* MainMenu.xib */,
+				E92DEA201580129E00EB02A0 /* BTSWindowController+Importer.h */,
+				E92DEA211580129E00EB02A0 /* BTSWindowController+Importer.m */,
+				E91F732C15792D6D0061EBB6 /* Supporting Files */,
+			);
+			path = "iSight iMage cApture";
+			sourceTree = "<group>";
+		};
+		E91F732C15792D6D0061EBB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E91F732D15792D6D0061EBB6 /* iSight iMage cApture-Info.plist */,
+				E91F732E15792D6D0061EBB6 /* InfoPlist.strings */,
+				E91F733115792D6D0061EBB6 /* main.m */,
+				E91F733315792D6D0061EBB6 /* iSight iMage cApture-Prefix.pch */,
+				E91F733415792D6D0061EBB6 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E91F732015792D6D0061EBB6 /* iSight iMage cApture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E91F733F15792D6E0061EBB6 /* Build configuration list for PBXNativeTarget "iSight iMage cApture" */;
+			buildPhases = (
+				E91F731D15792D6D0061EBB6 /* Sources */,
+				E91F731E15792D6D0061EBB6 /* Frameworks */,
+				E91F731F15792D6D0061EBB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iSight iMage cApture";
+			productName = "iSight iMage cApture";
+			productReference = E91F732115792D6D0061EBB6 /* iSight iMage cApture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E91F731815792D6D0061EBB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BTS;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "BurningThumb Software";
+			};
+			buildConfigurationList = E91F731B15792D6D0061EBB6 /* Build configuration list for PBXProject "iSight iMage cApture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E91F731615792D6D0061EBB6;
+			productRefGroup = E91F732215792D6D0061EBB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E91F732015792D6D0061EBB6 /* iSight iMage cApture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E91F731F15792D6D0061EBB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91F733015792D6D0061EBB6 /* InfoPlist.strings in Resources */,
+				E91F733615792D6D0061EBB6 /* Credits.rtf in Resources */,
+				E91F733C15792D6E0061EBB6 /* MainMenu.xib in Resources */,
+				E91F734315792DA30061EBB6 /* iSightiMage.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E91F731D15792D6D0061EBB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91F733215792D6D0061EBB6 /* main.m in Sources */,
+				E91F733915792D6D0061EBB6 /* BTSAppDelegate.m in Sources */,
+				E92DEA0E157D424D00EB02A0 /* BTSWindowController.m in Sources */,
+				E92DEA18157D833600EB02A0 /* BTSImage.m in Sources */,
+				E92DEA1F157FEAC200EB02A0 /* BTSWindowController+Browser.m in Sources */,
+				E92DEA221580129E00EB02A0 /* BTSWindowController+Importer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E91F732E15792D6D0061EBB6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E91F732F15792D6D0061EBB6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E91F733415792D6D0061EBB6 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E91F733515792D6D0061EBB6 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E91F733A15792D6E0061EBB6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E91F733B15792D6E0061EBB6 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E91F733D15792D6E0061EBB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E91F733E15792D6E0061EBB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E91F734015792D6E0061EBB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iSight iMage cApture/iSight iMage cApture-Prefix.pch";
+				INFOPLIST_FILE = "iSight iMage cApture/iSight iMage cApture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E91F734115792D6E0061EBB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iSight iMage cApture/iSight iMage cApture-Prefix.pch";
+				INFOPLIST_FILE = "iSight iMage cApture/iSight iMage cApture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E91F731B15792D6D0061EBB6 /* Build configuration list for PBXProject "iSight iMage cApture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91F733D15792D6E0061EBB6 /* Debug */,
+				E91F733E15792D6E0061EBB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E91F733F15792D6E0061EBB6 /* Build configuration list for PBXNativeTarget "iSight iMage cApture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91F734015792D6E0061EBB6 /* Debug */,
+				E91F734115792D6E0061EBB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E91F731815792D6D0061EBB6 /* Project object */;
+}

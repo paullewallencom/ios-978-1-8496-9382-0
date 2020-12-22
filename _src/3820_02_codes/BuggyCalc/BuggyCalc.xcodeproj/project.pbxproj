@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E955AA5F1534B78D006EF75D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E955AA5E1534B78D006EF75D /* Cocoa.framework */; };
+		E955AA691534B78D006EF75D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E955AA671534B78D006EF75D /* InfoPlist.strings */; };
+		E955AA6B1534B78D006EF75D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E955AA6A1534B78D006EF75D /* main.m */; };
+		E955AA6F1534B78D006EF75D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E955AA6D1534B78D006EF75D /* Credits.rtf */; };
+		E955AA721534B78D006EF75D /* BTSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E955AA711534B78D006EF75D /* BTSAppDelegate.m */; };
+		E955AA751534B78D006EF75D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E955AA731534B78D006EF75D /* MainMenu.xib */; };
+		E955AA7C1534C10B006EF75D /* BuggyCalc.icns in Resources */ = {isa = PBXBuildFile; fileRef = E955AA7B1534C10B006EF75D /* BuggyCalc.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E955AA5A1534B78D006EF75D /* BuggyCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuggyCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E955AA5E1534B78D006EF75D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E955AA611534B78D006EF75D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E955AA621534B78D006EF75D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E955AA631534B78D006EF75D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E955AA661534B78D006EF75D /* BuggyCalc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuggyCalc-Info.plist"; sourceTree = "<group>"; };
+		E955AA681534B78D006EF75D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E955AA6A1534B78D006EF75D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E955AA6C1534B78D006EF75D /* BuggyCalc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BuggyCalc-Prefix.pch"; sourceTree = "<group>"; };
+		E955AA6E1534B78D006EF75D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E955AA701534B78D006EF75D /* BTSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTSAppDelegate.h; sourceTree = "<group>"; };
+		E955AA711534B78D006EF75D /* BTSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTSAppDelegate.m; sourceTree = "<group>"; };
+		E955AA741534B78D006EF75D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E955AA7B1534C10B006EF75D /* BuggyCalc.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = BuggyCalc.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E955AA571534B78D006EF75D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E955AA5F1534B78D006EF75D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E955AA4F1534B78D006EF75D = {
+			isa = PBXGroup;
+			children = (
+				E955AA7B1534C10B006EF75D /* BuggyCalc.icns */,
+				E955AA641534B78D006EF75D /* BuggyCalc */,
+				E955AA5D1534B78D006EF75D /* Frameworks */,
+				E955AA5B1534B78D006EF75D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E955AA5B1534B78D006EF75D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E955AA5A1534B78D006EF75D /* BuggyCalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E955AA5D1534B78D006EF75D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E955AA5E1534B78D006EF75D /* Cocoa.framework */,
+				E955AA601534B78D006EF75D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E955AA601534B78D006EF75D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E955AA611534B78D006EF75D /* AppKit.framework */,
+				E955AA621534B78D006EF75D /* CoreData.framework */,
+				E955AA631534B78D006EF75D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E955AA641534B78D006EF75D /* BuggyCalc */ = {
+			isa = PBXGroup;
+			children = (
+				E955AA701534B78D006EF75D /* BTSAppDelegate.h */,
+				E955AA711534B78D006EF75D /* BTSAppDelegate.m */,
+				E955AA731534B78D006EF75D /* MainMenu.xib */,
+				E955AA651534B78D006EF75D /* Supporting Files */,
+			);
+			path = BuggyCalc;
+			sourceTree = "<group>";
+		};
+		E955AA651534B78D006EF75D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E955AA661534B78D006EF75D /* BuggyCalc-Info.plist */,
+				E955AA671534B78D006EF75D /* InfoPlist.strings */,
+				E955AA6A1534B78D006EF75D /* main.m */,
+				E955AA6C1534B78D006EF75D /* BuggyCalc-Prefix.pch */,
+				E955AA6D1534B78D006EF75D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E955AA591534B78D006EF75D /* BuggyCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E955AA781534B78D006EF75D /* Build configuration list for PBXNativeTarget "BuggyCalc" */;
+			buildPhases = (
+				E955AA561534B78D006EF75D /* Sources */,
+				E955AA571534B78D006EF75D /* Frameworks */,
+				E955AA581534B78D006EF75D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuggyCalc;
+			productName = SimpleCalc;
+			productReference = E955AA5A1534B78D006EF75D /* BuggyCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E955AA511534B78D006EF75D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BTS;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "BurningThumb Software";
+			};
+			buildConfigurationList = E955AA541534B78D006EF75D /* Build configuration list for PBXProject "BuggyCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E955AA4F1534B78D006EF75D;
+			productRefGroup = E955AA5B1534B78D006EF75D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E955AA591534B78D006EF75D /* BuggyCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E955AA581534B78D006EF75D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E955AA691534B78D006EF75D /* InfoPlist.strings in Resources */,
+				E955AA6F1534B78D006EF75D /* Credits.rtf in Resources */,
+				E955AA751534B78D006EF75D /* MainMenu.xib in Resources */,
+				E955AA7C1534C10B006EF75D /* BuggyCalc.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E955AA561534B78D006EF75D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E955AA6B1534B78D006EF75D /* main.m in Sources */,
+				E955AA721534B78D006EF75D /* BTSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E955AA671534B78D006EF75D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E955AA681534B78D006EF75D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E955AA6D1534B78D006EF75D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E955AA6E1534B78D006EF75D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E955AA731534B78D006EF75D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E955AA741534B78D006EF75D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E955AA761534B78D006EF75D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E955AA771534B78D006EF75D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E955AA791534B78D006EF75D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BuggyCalc/BuggyCalc-Prefix.pch";
+				INFOPLIST_FILE = "BuggyCalc/BuggyCalc-Info.plist";
+				PRODUCT_NAME = BuggyCalc;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E955AA7A1534B78D006EF75D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BuggyCalc/BuggyCalc-Prefix.pch";
+				INFOPLIST_FILE = "BuggyCalc/BuggyCalc-Info.plist";
+				PRODUCT_NAME = BuggyCalc;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E955AA541534B78D006EF75D /* Build configuration list for PBXProject "BuggyCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E955AA761534B78D006EF75D /* Debug */,
+				E955AA771534B78D006EF75D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E955AA781534B78D006EF75D /* Build configuration list for PBXNativeTarget "BuggyCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E955AA791534B78D006EF75D /* Debug */,
+				E955AA7A1534B78D006EF75D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E955AA511534B78D006EF75D /* Project object */;
+}
